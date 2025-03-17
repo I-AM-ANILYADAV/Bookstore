@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "Laughter Therapy",
+        "title": "A collection of humorous anecdotes to brighten your day.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/smiling-kid-reading-book_1232-456.jpg"
+    },
+    {
+        "id": 2,
+        "name": "The Athlete's Journey",
+        "title": "Inspiring stories from world-class athletes overcoming challenges.",
+        "price": 250,
+        "category": "Sports",
+        "image": "https://img.freepik.com/free-photo/boy-playing-soccer-park_1232-789.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Verses from the Soul",
+        "title": "A heartfelt collection of poems touching on love and life.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/kid-writing-poetry-notebook_1232-101.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Culinary Delights",
+        "title": "Recipes and stories from young chefs around the world.",
+        "price": 450,
+        "category": "Cooking",
+        "image": "https://img.freepik.com/free-photo/kids-cooking-together-kitchen_1232-202.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Legends of Old",
+        "title": "True stories of brave kids who changed the world.",
+        "price": 530,
+        "category": "History",
+        "image": "https://img.freepik.com/free-photo/kids-learning-history-book_1232-303.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Beyond the Stars",
+        "title": "An introduction to space exploration and astronauts.",
+        "price": 310,
+        "category": "Science",
+        "image": "https://img.freepik.com/free-photo/child-looking-telescope-night_1232-404.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Business Innovations for Kids",
+        "title": "How young entrepreneurs started their first business.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/kids-selling-lemonade-street_1232-505.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Echoes of the Past",
+        "title": "Stories of amazing kids from history.",
+        "price": 580,
+        "category": "History",
+        "image": "https://img.freepik.com/free-photo/kids-museum-learning-history_1232-606.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Mindfulness Matters",
+        "title": "A guide for kids to relax, focus, and be happy.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/kid-meditating-nature_1232-707.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Coding for Beginners",
+        "title": "A simple introduction to coding for kids.",
+        "price": 550,
+        "category": "Technology",
+        "image": "https://img.freepik.com/free-photo/kid-typing-computer_1232-808.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Wonders of Nature",
+        "title": "A photographic journey through Earth's natural wonders.",
+        "price": 380,
+        "category": "Nature",
+        "image": "https://img.freepik.com/free-photo/kid-exploring-forest_1232-909.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Psychology for Kids",
+        "title": "Understanding emotions, feelings, and friendships.",
+        "price": 600,
+        "category": "Psychology",
+        "image": "https://img.freepik.com/free-photo/kids-talking-feelings_1232-1010.jpg"
+    },
+    {
+        "id": 13,
+        "name": "The Ultimate Travel Guide for Kids",
+        "title": "Best places in the world for kids to explore!",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/kid-holding-globe-excited-travel_1232-1111.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Philosophy of Life",
+        "title": "Big questions that every curious kid asks.",
+        "price": 500,
+        "category": "Philosophy",
+        "image": "https://img.freepik.com/free-photo/kid-thinking-about-life_1232-1212.jpg"
+    },
+    {
+        "id": 15,
+        "name": "The Science of Everything",
+        "title": "A deep dive into scientific discoveries explained simply.",
+        "price": 620,
+        "category": "Science",
+        "image": "https://img.freepik.com/free-photo/kid-experimenting-home-lab_1232-1313.jpg"
+    },
+    {
+        "id": 16,
+        "name": "The Future of AI",
+        "title": "How robots and artificial intelligence will change the future.",
+        "price": 700,
+        "category": "Technology",
+        "image": "https://img.freepik.com/free-photo/kid-programming-robot_1232-1414.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Gardening 101",
+        "title": "A beginner's guide to growing plants and flowers.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/kid-watering-plants-garden_1232-1616.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Digital Photography Basics",
+        "title": "How kids can take amazing pictures with a camera or phone.",
+        "price": 380,
+        "category": "Photography",
+        "image": "https://img.freepik.com/free-photo/kid-taking-photos-park_1232-1717.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Adventures in Real Life",
+        "title": "Incredible true stories of kids doing amazing things.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/kids-hiking-exploring-world_1232-1818.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Famous Scientists",
+        "title": "Stories of scientists who changed the world.",
+        "price": 500,
+        "category": "Science",
+        "image": "https://img.freepik.com/free-photo/kid-doing-science-experiment_1232-1919.jpg"
+    }
+]
