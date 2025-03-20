@@ -23,7 +23,7 @@ function Banner() {
                 </svg>
                 <input type="email" placeholder="mail@site.com" required className="pl-10 pr-4 py-2 border border-gray-300 rounded-md w-full md:w-auto focus:outline-none focus:ring-2 focus:ring-pink-500" />
               </label>
-              <button className="btn btn-secondary px-6 py-2 rounded-md text-white bg-pink-500 hover:bg-pink-600 transition duration-200">Subscribe</button>
+              <button className="btn btn-secondary px-6 py-2 rounded-md text-white bg-pink-500 hover:bg-pink-600 transition duration-200">Get Started</button>
             </div>
             <div className="validator-hint hidden text-red-500">Enter a valid email address</div>
           </div>

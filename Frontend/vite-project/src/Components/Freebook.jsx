@@ -3,19 +3,24 @@ import Slider from "react-slick";
 import Cards from './Cards';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import axios from 'axios'
+
 
 function Freebook() {
-  const [filterData, setFilterData] = useState([]);
-  useEffect(() => {
-    fetch('/List.json')
-      .then((response) => response.json())
-      .then((data) => {
-        const filtered = data.filter((item) => item.category === "Free");
-        setFilterData(filtered);
-        console.log(filtered);
-      })
-      .catch((error) => console.error('Error fetching JSON:', error));
-  }, []);
+  const [book, setBook] = useState([])
+  useEffect(() =>{
+    const getBook = async ()=>{
+      try{
+      const res = await axios.get("http://localhost:3000/book")
+      const data = res.data.filter((data) =>data.category ==="Free")
+      console.log(data);
+      setBook(data)
+      }catch(error){
+        console.log("Error:",error)
+      }
+    }
+    getBook();
+  },[])
 
   var settings = {
     dots: true,
@@ -57,14 +62,12 @@ function Freebook() {
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-5">
         <div>
           <h1 className="font-semibold text-xl pd-2">Free Offered Course</h1>
-          <p>"Welcome to our bookstore! Explore a wide range of books and learn 
-          something new every day. With easy browsing, secure shopping, 
-          and great recommendations, your reading journey starts here!"</p>
+          <p>"Step into a world of stories, knowledge, and imagination . Whether you’re an avid reader, a student, or someone looking for the perfect gift, our bookstore offers a diverse collection of books across various genres. From timeless classics and bestsellers to academic resources and rare finds, we have something for everyone."</p>
         </div> 
     
         <div>
           <Slider {...settings}>
-            {filterData.map((item) => (
+            {book.map((item) => (
               <Cards item={item} key={item.id} />
             ))}
           </Slider>

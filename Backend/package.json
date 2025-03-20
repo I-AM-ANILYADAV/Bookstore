@@ -1,0 +1,31 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "MERN Project",
+  "homepage": "https://github.com/I-AM-ANILYADAV/Bookstore#readme",
+  "bugs": {
+    "url": "https://github.com/I-AM-ANILYADAV/Bookstore/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I-AM-ANILYADAV/Bookstore.git"
+  },
+  "license": "ISC",
+  "author": "Anil Yadav",
+  "type": "module",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9",
+    "react-hot-toast": "^2.5.2"
+  }
+}
